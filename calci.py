@@ -14,10 +14,11 @@ print ("d. Divide")
 c1 = True
 while c1:
    choice = input("Please enter choice (a/ b/ c/ d): ") 
-   c1 = choice in 'abcd' 
+   c1 = choice in ["a","b","c","d"] 
    if len(choice) == 0:
       c1 = not c1
    c1 = not c1
+
    if c1:
       print('invalid input')
 b1 = True
