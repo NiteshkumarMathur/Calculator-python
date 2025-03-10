@@ -1,2 +1,2 @@
 ## A simple calculator program in Python
-Basic arthtimetic operations
+My first program on basic arthtimetic operations
